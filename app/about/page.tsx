@@ -7,23 +7,23 @@ export default function AboutPage() {
   const highlights = [
     {
       icon: Code2,
-      title: "Développeur Fullstack",
-      description: "Expert en développement web et mobile, de l'idée à la production",
+      title: "Profil technique et fonctionnel",
+      description: "Développement, analyse fonctionnelle, tests applicatifs et validation des parcours utilisateurs.",
     },
     {
       icon: Award,
       title: "Applications en production",
-      description: "Top 10 catégorie Shopping avec Nexaa Market",
+      description: "Produit réel classé Top 10 Shopping avec des utilisateurs actifs.",
     },
     {
       icon: Target,
-      title: "Orienté résultats",
-      description: "+350 utilisateurs actifs, projets déployés et utilisés",
+      title: "Orienté qualité et résultats",
+      description: "Tests fonctionnels, suivi des anomalies, livrables stables et utilisés.",
     },
     {
       icon: Lightbulb,
       title: "Vision produit",
-      description: "Conception de solutions numériques complètes et performantes",
+      description: "Conception de solutions numériques complètes, fiables et performantes.",
     },
   ];
 
@@ -52,7 +52,7 @@ export default function AboutPage() {
               transition={{ duration: 0.5, delay: 0.1 }}
               className="mt-6 text-lg sm:text-xl text-muted-foreground"
             >
-              Développeur fullstack passionné, orienté produit et impact réel
+              Développeur fullstack & analyste fonctionnel, orienté produit, qualité et impact réel
             </motion.p>
           </div>
         </div>
@@ -71,26 +71,25 @@ export default function AboutPage() {
               className="space-y-6"
             >
               <p className="text-lg text-foreground leading-relaxed">
-                Je suis développeur fullstack Web et Mobile, orienté produit et impact réel.
+                Je suis développeur fullstack Web et Mobile avec une forte sensibilité à la qualité applicative, à l'analyse fonctionnelle et à l'expérience utilisateur.
               </p>
 
               <p className="text-base text-muted-foreground leading-relaxed">
                 J'ai complété l'ensemble des cours du DEC en informatique – Développement
-                Web et Mobile (Épreuve uniforme de français à compléter) et je développe
-                des solutions numériques utilisées par de vrais utilisateurs.
+                Web et Mobile (Épreuve uniforme de français à compléter) et je participe à la conception, à la validation et à la mise en production de solutions numériques utilisées par de vrais utilisateurs.
               </p>
 
               <p className="text-base text-muted-foreground leading-relaxed">
                 Je suis le fondateur de <span className="text-primary font-semibold">Nexaa Market</span>,
                 une application mobile publiée sur Google Play Store et Apple App Store, qui a
-                atteint le top 10 de la catégorie Shopping et compte aujourd'hui plus de 350
-                utilisateurs actifs.
+                atteint le top 10 de la catégorie Shopping et plus de 350
+                utilisateurs actifs deux semaines après son lancement. Ce projet m'a permis de travailler sur l'ensemble du cycle de vie d'un produit : analyse des besoins, définition des parcours utilisateurs, tests fonctionnels, suivi des anomalies et amélioration continue après mise en production.
               </p>
 
               <p className="text-base text-muted-foreground leading-relaxed">
                 En parallèle, j'accompagne des clients en freelance en livrant des applications
                 web et mobiles complètes, de l'analyse des besoins jusqu'au déploiement en
-                production.
+                production, en accordant une attention particulière à la validation fonctionnelle, à la qualité des livrables et à la satisfaction des utilisateurs.
               </p>
             </motion.div>
 
@@ -140,16 +139,12 @@ export default function AboutPage() {
               </h2>
 
               <p className="text-base text-muted-foreground leading-relaxed">
-                Je crois que la technologie doit servir les utilisateurs. Chaque ligne de code
-                que j'écris a pour objectif de créer une expérience fluide, performante et utile.
-                Mon approche combine rigueur technique et vision produit pour livrer des solutions
-                qui font la différence.
+                Je crois que la technologie doit avant tout servir les utilisateurs et offrir des solutions fiables, sécurisées et de qualité.
+                Mon approche combine rigueur fonctionnelle, compréhension des besoins d'affaires et base technique solide afin de livrer des solutions qui répondent réellement aux attentes.
               </p>
 
               <p className="text-base text-muted-foreground leading-relaxed">
-                Actuellement, je continue d'apprendre et de me perfectionner, notamment en Java
-                et en cloud computing (AWS), tout en développant de nouveaux projets et en
-                accompagnant mes clients dans leur transformation numérique.
+                Je continue actuellement de me perfectionner, notamment en Java, en tests applicatifs et en environnements cloud (AWS), tout en développant de nouveaux projets et en accompagnant mes clients dans leurs besoins numériques.
               </p>
             </motion.div>
           </div>

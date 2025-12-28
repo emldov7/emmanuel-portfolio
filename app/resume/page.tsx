@@ -6,51 +6,57 @@ import { Download, Briefcase, GraduationCap, Award } from "lucide-react";
 export default function ResumePage() {
   const experiences = [
     {
-      title: "Fondateur & Développeur",
-      company: "Nexaa Market",
-      period: "2023 - Présent",
-      description: [
-        "Développement d'une marketplace mobile (Android & iOS)",
-        "Top 10 catégorie Shopping (4ᵉ position)",
-        "+350 utilisateurs actifs",
-        "Architecture fullstack, API REST, Backend, Sécurité",
-      ],
-    },
-    {
-      title: "Stagiaire Développeur Web & Mobile",
+      title: "Stagiaire Analyste fonctionnel / Développeur",
       company: "AIRPD, Montréal",
       period: "Juin 2025 – Août 2025",
       description: [
-        "Développement d'applications web internes avec React (frontend) et Django (backend)",
-        "Intégration d'APIs REST et gestion de l'authentification utilisateur",
-        "Correction de bugs et amélioration de l'expérience utilisateur",
-        "Participation aux réunions Agile avec l'équipe produit",
+        "Analyse des besoins et rédaction des exigences fonctionnelles pour les applications web internes",
+        "Définition de cas d'utilisation et validation des fonctionnalités livrées",
+        "Rédaction de scénarios de tests fonctionnels et tests d'intégration",
+        "Correction de bugs et documentation des anomalies",
+        "Participation aux réunions Agile et suivi des itérations avec l'équipe produit",
+        "Support post-déploiement et amélioration continue",
       ],
     },
     {
-      title: "Développeur Fullstack Freelance",
+      title: "Analyste fonctionnel & Développeur Freelance",
       company: "Divers clients",
       period: "2023 - Présent",
       description: [
-        "Conception et réalisation de sites web vitrines et e-commerce pour PME",
-        "Développement d'applications mobiles multiplateformes avec React Native et applications Android natives (Kotlin, Java, XML)",
-        "Mise en place de microservices (Node.js, FastAPI) et déploiement sur serveurs Linux",
-        "Gestion complète des projets : analyse des besoins, architecture, développement, déploiement et maintenance",
-        "Relation directe avec les clients et support post-livraison",
+        "Analyse des besoins client et rédaction des exigences fonctionnelles pour sites web et applications mobiles",
+        "Définition des parcours utilisateurs et validation des fonctionnalités avant mise en production",
+        "Rédaction de scénarios de tests fonctionnels et tests d'intégration",
+        "Documentation et suivi des anomalies, correction de bugs",
+        "Développement fullstack Web (React, Node.js) et Mobile (React Native, Android natif)",
+        "Gestion complète des projets : analyse, développement, tests, déploiement et support post-livraison",
+      ],
+    },
+    {
+      title: "Fondateur & Analyste fonctionnel",
+      company: "Nexaa Market",
+      period: "2023 - Présent",
+      description: [
+        "Analyse des besoins et définition des fonctionnalités clés",
+        "Conception des parcours utilisateurs et validation des fonctionnalités",
+        "Rédaction de scénarios de tests fonctionnels et tests d'intégration",
+        "Suivi et correction des anomalies post-déploiement",
+        "Amélioration continue basée sur les retours utilisateurs",
+        "Application mobile publiée sur Google Play Store et Apple App Store : Top 10 catégorie Shopping (4ᵉ position), +350 utilisateurs actifs",
       ],
     },
   ];
 
   const education = [
     {
-      degree: "AEC en Informatique - Développement Web et Mobile",
+      degree: "DEC en Informatique – Développement Web et Mobile",
       school: "Tous les cours du DEC complétés",
       period: "2025",
       description: "En attente de validation de l'Épreuve Uniforme de Français pour l'obtention du DEC",
       highlights: [
-        "Projets notables : application web de réservation en ligne",
+        "Projets notables : application web de réservation en ligne, validation fonctionnelle et tests",
         "Cours avancés : intelligence artificielle avec Python, développement mobile, microservices, IoT (Raspberry Pi), systèmes embarqués",
-        "Projets collaboratifs et présentations de POC",
+        "Méthodologies : Agile / Scrum, gestion de projet, collaboration inter-équipes",
+        "Tests et qualité applicative : rédaction de scénarios de tests, tests d'intégration, documentation des anomalies",
         "Environnements : Linux, Windows"
       ]
     },
@@ -58,7 +64,7 @@ export default function ResumePage() {
       degree: "Baccalauréat général",
       school: "Spécialités : Mathématiques, Physique-Chimie, SVT",
       period: "2022",
-      description: "Formation scientifique complète",
+      description: "Formation scientifique complète avec rigueur méthodologique",
     },
   ];
 
@@ -125,11 +131,11 @@ export default function ResumePage() {
                 Profil professionnel
               </h2>
               <p className="text-base text-muted-foreground leading-relaxed">
-                Développeur fullstack Web et Mobile orienté produit et impact réel. Expérience
-                confirmée dans le développement d'applications complètes, de l'idée au
-                déploiement en production. Fondateur de Nexaa Market (Top 10 Shopping,
-                +350 utilisateurs). Capacité démontrée à livrer des projets pour des clients
-                réels et à gérer l'ensemble du cycle de développement.
+                Analyste fonctionnel / coordonnateur de tests avec base solide en développement fullstack Web et Mobile.
+                Expérience concrète dans l'analyse des besoins, la validation fonctionnelle, la rédaction de scénarios de tests
+                et le suivi des anomalies sur des applications déployées en production. Fondateur de Nexaa Market (Top 10 Shopping,
+                +350 utilisateurs actifs), avec expérience en analyse fonctionnelle, tests fonctionnels, tests d'intégration et
+                amélioration continue. Capacité démontrée à livrer des projets validés et utilisés par de vrais utilisateurs.
               </p>
             </motion.div>
 
@@ -264,10 +270,12 @@ export default function ResumePage() {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {[
-                  "Application mobile Top 10 catégorie Shopping",
-                  "+350 utilisateurs actifs",
-                  "Projets freelance livrés et déployés",
-                  "Stack technique moderne et polyvalente",
+                  "Analyse fonctionnelle et validation de fonctionnalités en production",
+                  "Rédaction de scénarios de tests et tests d'intégration",
+                  "Suivi et documentation des anomalies sur applications réelles",
+                  "Application mobile validée : Top 10 Shopping, +350 utilisateurs actifs",
+                  "Projets freelance livrés, validés et déployés",
+                  "Support post-déploiement et amélioration continue",
                 ].map((achievement, index) => (
                   <motion.div
                     key={index}

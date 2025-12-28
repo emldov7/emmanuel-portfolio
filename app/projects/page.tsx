@@ -33,7 +33,7 @@ export default function ProjectsPage() {
               transition={{ duration: 0.5, delay: 0.1 }}
               className="mt-6 text-lg sm:text-xl text-muted-foreground"
             >
-              Applications déployées en production, utilisées par de vrais utilisateurs
+              Applications déployées en production, validées et utilisées par de vrais utilisateurs
             </motion.p>
           </div>
         </div>
@@ -54,7 +54,7 @@ export default function ProjectsPage() {
                 Projets en vedette
               </h2>
               <p className="mt-2 text-base text-muted-foreground">
-                Mes réalisations les plus significatives
+                Réalisations majeures avec analyse fonctionnelle, tests et mise en production
               </p>
             </motion.div>
 

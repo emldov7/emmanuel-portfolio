@@ -30,7 +30,7 @@ export default function SkillsPage() {
               transition={{ duration: 0.5, delay: 0.1 }}
               className="mt-6 text-lg sm:text-xl text-muted-foreground"
             >
-              Stack technique moderne pour créer des applications performantes
+              Stack technique et fonctionnelle pour concevoir, tester et livrer des applications fiables
             </motion.p>
           </div>
         </div>
@@ -81,11 +81,14 @@ export default function SkillsPage() {
               En apprentissage continu
             </h3>
             <p className="text-base text-muted-foreground leading-relaxed mb-4">
-              Je continue à enrichir mes compétences avec de nouvelles technologies et frameworks.
-              Actuellement, je me perfectionne en :
+              Je continue à enrichir mes compétences afin d'évoluer dans des environnements
+              TI complexes et critiques.
+            </p>
+            <p className="text-base text-muted-foreground leading-relaxed mb-4">
+              Actuellement en perfectionnement :
             </p>
             <div className="flex flex-wrap gap-2">
-              {["Java avancé", "AWS Cloud", "Architecture Microservices", "Java Spring Boot"].map((skill) => (
+              {["Java avancé", "Java Spring Boot", "Architecture microservices", "Cloud computing (AWS)"].map((skill) => (
                 <span
                   key={skill}
                   className="inline-flex items-center rounded-md bg-primary/10 border border-primary/20 px-3 py-1 text-sm font-medium text-primary"

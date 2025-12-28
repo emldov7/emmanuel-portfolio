@@ -5,7 +5,19 @@ export interface SkillCategory {
 
 export const skillsData: SkillCategory[] = [
   {
-    title: "Langages & Frameworks",
+    title: "Analyse fonctionnelle & Qualité applicative",
+    skills: [
+      "Analyse des besoins et compréhension des exigences",
+      "Définition des parcours utilisateurs",
+      "Rédaction de scénarios et cas de tests",
+      "Tests fonctionnels et tests d'intégration",
+      "Documentation et suivi des anomalies",
+      "Validation des livrables avant mise en production",
+      "Support fonctionnel post-déploiement"
+    ]
+  },
+  {
+    title: "Langages",
     skills: [
       "JavaScript",
       "TypeScript",
@@ -14,7 +26,12 @@ export const skillsData: SkillCategory[] = [
       "Kotlin",
       "PHP",
       "HTML5",
-      "CSS3",
+      "CSS3"
+    ]
+  },
+  {
+    title: "Frameworks & bibliothèques",
+    skills: [
       "React",
       "Next.js",
       "Django",
@@ -26,10 +43,10 @@ export const skillsData: SkillCategory[] = [
   {
     title: "Backend & API",
     skills: [
-      "API REST",
-      "Microservices",
-      "Authentification (JWT)",
-      "Sécurité applicative"
+      "Conception et consommation d'API REST",
+      "Architecture microservices",
+      "Authentification et gestion des accès (JWT – bases)",
+      "Sécurité applicative (bases)"
     ]
   },
   {
@@ -44,8 +61,8 @@ export const skillsData: SkillCategory[] = [
     skills: [
       "Linux",
       "Git / GitHub",
-      "Docker",
-      "Déploiement serveur",
+      "Docker (bases)",
+      "Déploiement applicatif",
       "Vercel"
     ]
   },
@@ -59,7 +76,9 @@ export const skillsData: SkillCategory[] = [
   {
     title: "Méthodologies",
     skills: [
-      "Agile / Scrum"
+      "Agile / Scrum",
+      "Collaboration inter-équipes",
+      "Livraison continue et amélioration continue"
     ]
   }
 ];

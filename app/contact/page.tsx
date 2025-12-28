@@ -80,7 +80,7 @@ export default function ContactPage() {
               transition={{ duration: 0.5, delay: 0.1 }}
               className="mt-6 text-lg sm:text-xl text-muted-foreground"
             >
-              Vous avez un projet ou une opportunité ? Parlons-en.
+              Projet, opportunité professionnelle ou besoin en analyse et tests TI
             </motion.p>
           </div>
         </div>
@@ -104,8 +104,7 @@ export default function ContactPage() {
                     Restons en contact
                   </h2>
                   <p className="text-base text-muted-foreground">
-                    N'hésitez pas à me contacter pour discuter de vos projets, opportunités
-                    professionnelles ou simplement pour échanger.
+                    N'hésitez pas à me contacter pour discuter d'une opportunité professionnelle en analyse fonctionnelle ou tests applicatifs, d'un projet numérique nécessitant rigueur, validation et qualité, ou simplement pour échanger autour des technologies et des produits numériques.
                   </p>
                 </div>
 
@@ -151,8 +150,7 @@ export default function ContactPage() {
                     Disponibilité
                   </h3>
                   <p className="text-sm text-muted-foreground">
-                    Ouvert aux opportunités freelance et aux postes fullstack. Disponible
-                    pour des projets dès maintenant.
+                    Ouvert aux opportunités professionnelles en analyse fonctionnelle, coordination de tests et qualité applicative. Disponible également pour des mandats ciblés nécessitant une base technique en développement.
                   </p>
                 </motion.div>
               </motion.div>
@@ -210,7 +208,7 @@ export default function ContactPage() {
                       onChange={handleChange}
                       required
                       className="w-full px-4 py-3 rounded-lg border border-muted/20 bg-muted/5 text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary/50 transition-all"
-                      placeholder="votre.email@exemple.com"
+                      placeholder="Adresse courriel"
                     />
                   </div>
 

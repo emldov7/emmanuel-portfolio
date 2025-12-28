@@ -13,22 +13,22 @@ export default function Home() {
     {
       icon: Users,
       value: "+350",
-      label: "Utilisateurs actifs",
+      label: "Utilisateurs actifs\n(en moins de 2 semaines après le lancement)",
     },
     {
       icon: TrendingUp,
       value: "Top 10",
-      label: "Catégorie Shopping",
+      label: "Catégorie Shopping\n(4ᵉ position)",
     },
     {
       icon: Rocket,
       value: "Production",
-      label: "Android & iOS",
+      label: "Android & iOS\nApplications publiées et maintenues",
     },
     {
       icon: Code2,
-      value: "Fullstack",
-      label: "Web & Mobile",
+      value: "Qualité & fiabilité",
+      label: "Analyse fonctionnelle • Tests • Validation des livrables",
     },
   ];
 
@@ -48,7 +48,7 @@ export default function Home() {
               transition={{ duration: 0.5 }}
             >
               <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-heading font-bold tracking-tight">
-                Développeur Fullstack
+                Analyste fonctionnel & Développeur fullstack
                 <br />
                 <span className="text-gradient">Web & Mobile</span>
               </h1>
@@ -60,7 +60,8 @@ export default function Home() {
               transition={{ duration: 0.5, delay: 0.1 }}
               className="mt-6 text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto"
             >
-              Je conçois des produits numériques modernes, de l'idée à la production.
+              Je conçois, valide et livre des produits numériques fiables,
+              de l'analyse des besoins jusqu'à la mise en production.
             </motion.p>
 
             <motion.p
@@ -69,7 +70,7 @@ export default function Home() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="mt-4 text-sm sm:text-base text-muted-foreground"
             >
-              Applications web & mobiles • API • Produits réels en production
+              Applications web & mobiles • Analyse fonctionnelle • Tests applicatifs • Produits réels en production
             </motion.p>
 
             <motion.div
@@ -131,7 +132,7 @@ export default function Home() {
             className="mt-12 text-center"
           >
             <p className="text-base sm:text-lg text-muted-foreground max-w-3xl mx-auto">
-              Clients réels • Projets déployés • Impact mesurable
+              Applications réelles • Projets déployés • Utilisateurs actifs • Analyse des besoins • Tests fonctionnels • Amélioration continue
             </p>
           </motion.div>
         </div>
@@ -151,7 +152,7 @@ export default function Home() {
               Projets en vedette
             </h2>
             <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
-              Applications déployées en production, utilisées par de vrais utilisateurs
+              Applications déployées en production, testées et utilisées par de vrais utilisateurs
             </p>
           </motion.div>
 
