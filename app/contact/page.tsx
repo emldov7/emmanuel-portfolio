@@ -35,7 +35,7 @@ export default function ContactPage() {
       icon: Linkedin,
       title: "LinkedIn",
       value: "Emmanuel DOVON",
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/emmanuel-dovon-079220286/",
     },
   ];
 
