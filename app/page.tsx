@@ -13,17 +13,17 @@ export default function Home() {
     {
       icon: Users,
       value: "+350",
-      label: "Utilisateurs actifs\n(en moins de 2 semaines après le lancement)",
+      label: "Utilisateurs actifs (en moins de 2 semaines après le lancement)",
     },
     {
       icon: TrendingUp,
       value: "Top 10",
-      label: "Catégorie Shopping\n(4ᵉ position)",
+      label: "Catégorie Shopping (4ᵉ position)",
     },
     {
       icon: Rocket,
       value: "Production",
-      label: "Android & iOS\nApplications publiées et maintenues",
+      label: "Android & iOS - Applications publiées et maintenues",
     },
     {
       icon: Code2,
