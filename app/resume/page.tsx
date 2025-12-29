@@ -103,8 +103,8 @@ export default function ResumePage() {
               className="mt-8"
             >
               <a
-                href="/cv/CV DOVON EMMANUEL 2025.pdf"
-                download="CV_Emmanuel_DOVON_2025.pdf"
+                href="/cv/CV DOVON EMMANUEL.pdf"
+                download="CV_Emmanuel_DOVON.pdf"
                 className="inline-flex items-center gap-2 rounded-lg bg-gradient-to-r from-primary to-accent px-6 py-3 text-sm font-medium text-white shadow-lg shadow-primary/25 hover:shadow-xl hover:shadow-primary/40 transition-all"
               >
                 <Download className="h-4 w-4" />
