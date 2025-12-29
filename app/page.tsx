@@ -84,8 +84,8 @@ export default function Home() {
               </CTA>
               <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                 <a
-                  href="/cv/CV DOVON EMMANUEL 2025.pdf"
-                  download="CV_Emmanuel_DOVON_2025.pdf"
+                  href="/cv/CV DOVON EMMANUEL.pdf"
+                  download="CV_Emmanuel_DOVON.pdf"
                   className="inline-flex items-center gap-2 rounded-lg border border-muted/20 bg-muted/5 text-foreground px-6 py-3 font-medium transition-all hover:border-primary/50 hover:bg-muted/10"
                 >
                   <Download className="h-4 w-4" />
