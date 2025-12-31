@@ -44,25 +44,27 @@ export const projects: Project[] = [
   {
     id: "event-management",
     title: "Plateforme de gestion d'événements",
-    description: "Application web – Projet client (freelance)",
-    longDescription: "Développement d'une plateforme web permettant la gestion complète d'événements (création, inscriptions, suivi).",
-    context: "Développement d'une plateforme web permettant la gestion complète d'événements (création, inscriptions, suivi).",
-    problem: "Analyse des besoins client et rédaction des exigences fonctionnelles • Définition des cas d'utilisation • Validation des fonctionnalités livrées • Tests fonctionnels et documentation des anomalies • Déploiement et support post-mise en production",
-    solution: "Application web complète avec tableau de bord administrateur, système d'inscription, gestion des participants, et suivi des événements en temps réel.",
+    description: "Application web interne – Stage chez AIRPD",
+    longDescription: "Développement d'une plateforme web interne pour la gestion complète d'événements (création, inscriptions, suivi) dans le cadre de mon stage chez AIRPD.",
+    context: "Stage de développeur web & mobile chez AIRPD à Montréal (Juin 2025 – Août 2025). Développement d'applications web internes avec React (frontend) et Django (backend).",
+    problem: "Développement d'applications web internes • Intégration d'APIs REST et gestion de l'authentification utilisateur • Correction de bugs et amélioration de l'expérience utilisateur • Participation aux réunions Agile avec l'équipe produit",
+    solution: "Application web fullstack avec tableau de bord administrateur, système d'inscription, gestion des participants, intégration d'APIs REST et authentification sécurisée.",
     results: [
-      "Projet livré, déployé et utilisé par le client",
-      "Respect des délais et du budget",
-      "Validation fonctionnelle complète avant mise en production",
-      "Application stable utilisée pour plusieurs événements"
+      "Application déployée et utilisée en interne chez AIRPD",
+      "Participation active aux réunions Agile avec l'équipe produit",
+      "Intégration réussie des APIs REST et système d'authentification",
+      "Amélioration de l'expérience utilisateur et correction de bugs"
     ],
     stack: [
       "React",
-      "Node.js",
-      "Express",
-      "MongoDB",
-      "Tailwind CSS",
-      "API REST"
+      "Django",
+      "Python",
+      "API REST",
+      "Authentification JWT",
+      "Tailwind CSS"
     ],
+    image: "/images/image3.png",
+    link: "https://eventplanner-technodev.com",
     featured: true
   },
   {
